@@ -1,0 +1,32 @@
+<html>
+<heah>
+    <title>表格</title>
+    
+</heah>
+<body>
+    <!--2X3表格-->
+    <table border="1"><!--<table>標籤把內容包起來．<boeder="1"> 邊框粗細是1-->
+       <tr><td>1</td><td>2</td><td>3</td></tr> <!--<tr>標籤代表的是一行-->>
+       <tr><td>4</td><td>5</td><td>6</td></tr> <!--<tb>標籤則代表一列-->
+    </table>
+
+        <!--<colspan> 控制儲存格橫跨幾個欄位-->
+     <table border="1">
+        <tr><td>1</td><td colspan="2">2 3</td></tr> 
+        <tr><td>4</td><td>5</td><td>6</td></tr> 
+     
+    </table>
+
+    <!--<rowspan> 控制儲存格垂直跨幾個欄位-->
+    <table border="1">
+        <tr><td rowspan="2">1 4</td><td>2</td><td>3</td></tr> 
+        <tr>  <td>5</td><td>6</td></tr> 
+    </table>
+ <!--3X3表格-->
+ <table border=1>
+    <tr><td>1</td><td colspan=2 rowspan=2>2 3 5 6</td></tr>
+    <tr><td>4</td>                                    </tr>
+    <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+</body>
+</html>
